@@ -36,10 +36,10 @@ fb_win = driver.window_handles[1]
 driver.switch_to.window(fb_win)
 time.sleep(3)
 email = driver.find_element(By.NAME, 'email')
-email.send_keys('8279576916')
+email.send_keys(YOUR USERNAME/NUMBER)
 
 password = driver.find_element(By.NAME, 'pass')
-password.send_keys('Golu@1998', Keys.ENTER)
+password.send_keys(YOUR PASSWORD, Keys.ENTER)
 
 driver.switch_to.window(base_win)
 
